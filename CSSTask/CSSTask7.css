@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utitlity Styles */
+a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+input, select{
+    width: 12rem;
+    height:1.8rem;
+    outline: none;
+}
+
+select{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+option{
+    font-size: .7rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  color: #04a96d;
+}
+
+.title {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* Outer Container */
+.container {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A22B55;
+}
+
+.container .wrapper{
+    width: 80%;
+    height: 90%;
+    background-color: #75203F;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    justify-content: space-evenly;
+}
+
+.container .wrapper .item{
+    /* border: 1px solid #fff; */
+    width: 23rem;
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    width: 25rem!important;
+}
+
+.radio > label{
+    margin-right: 4rem;
+}
+
+.radio > span{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    align-self: center;
+    width: 100%;
+    height: 55px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
