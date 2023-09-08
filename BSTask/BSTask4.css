@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utitlity Styles */
+a {
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+body {
+  overflow: hidden;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 2.1rem;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  color: #0d6efd;
+  margin-right: 1rem;
+}
+
+.title{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  gap: 5rem;
+}
+
+.card .links {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  width: 60%;
+  padding: 0 18px;
+}
+
+.card-img-top {
+  height: 30vh !important;
+  object-fit: cover;
+}
+
+.card .links > a {
+  font-size: 1.2rem;
+  color: rgba(255, 251, 0, 0.862);
+}

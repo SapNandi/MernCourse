@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #212529; */
+  width: 100%;
+  height: 100vh;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utitlity Styles */
+a {
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 2.1rem;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  color: #0d6efd;
+  margin-right: 1rem;
+}
+
+.title {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 40%;
+  height: 70vh;
+  justify-content: center;
+  /* gap: .8rem; */
+}
+
+.form{
+    height: 100%;
+}
